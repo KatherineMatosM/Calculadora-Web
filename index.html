@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Wed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.jfif" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <input type="text" class="pantalla" id="pantalla" readonly>
+
+            <div class="botones">
+                <button class="limpiar" onclick="limpiarPantalla()">C</button>
+                <button class="operador" onclick="borrarUltimo()">DEL</button>
+                <button class="operador" onclick="agregarOperador('%')">%</button>
+                <button class="operador" onclick="agregarOperador('÷')">÷</button>
+
+                <button class="numero" onclick="agregarNumero('7')">7</button>
+                <button class="numero" onclick="agregarNumero('8')">8</button>
+                <button class="numero" onclick="agregarNumero('9')">9</button>
+                <button class="operador" onclick="agregarOperador('×')">×</button>
+
+                <button class="numero" onclick="agregarNumero('4')">4</button>
+                <button class="numero" onclick="agregarNumero('5')">5</button>
+                <button class="numero" onclick="agregarNumero('6')">6</button>
+                <button class="operador" onclick="agregarOperador('-')">-</button>
+
+                <button class="numero" onclick="agregarNumero('1')">1</button>
+                <button class="numero" onclick="agregarNumero('2')">2</button>
+                <button class="numero" onclick="agregarNumero('3')">3</button>
+                <button class="operador" onclick="agregarOperador('+')">+</button>
+
+                <button class="numero" onclick="agregarNumero('.')">.</button>
+                <button class="numero" onclick="agregarNumero('0')">0</button>
+                <button class="igual" onclick="calcular()">=</button>
+            </div>
+        </div>
+
+        <div class="historial">
+            <h2>Historial</h2>
+            <div class="lista-historial" id="lista-historial">
+                <div class="historial-vacio">No hay operaciones realizadas</div>
+            </div>
+            
+            <button class="btn-limpiar-historial" onclick="limpiarHistorial()">
+                Limpiar Historial
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
