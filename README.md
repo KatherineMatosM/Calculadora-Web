@@ -32,5 +32,12 @@ La aplicación permite realizar operaciones matemáticas básicas y guarda un hi
 
 ---
 
+## Tecnologías utilizadas
+- HTML5  
+- CSS3  
+- JavaScript (ES5)  
+
+---
+
 ## Autor
 **Katherine Matos Medina** 
