@@ -42,4 +42,4 @@ La aplicación permite realizar operaciones matemáticas básicas y guarda un hi
 ---
 
 ## Autor
-**Katherine Matos Medina** 
+**Katherine Matos Medina - 20241577** 
