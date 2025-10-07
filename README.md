@@ -3,6 +3,8 @@
 Este es un proyecto de **calculadora web** hecha con **HTML, CSS y JavaScript**.  
 La aplicación permite realizar operaciones matemáticas básicas y guarda un historial de las operaciones realizadas usando `localStorage`.
 
+<img width="572" height="370" alt="Cal" src="https://github.com/user-attachments/assets/9151f0e9-9592-43ea-a598-546571f05d7c" />
+
 ---
 
 ## Funcionalidades
